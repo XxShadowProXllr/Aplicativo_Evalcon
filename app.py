@@ -1,16 +1,5 @@
 # Inicializacion de librerias Python 3.x
         # Inicializacion de librerias Python 2.x
-from os import system
-from tkinter import *
-from tkinter import ttk
-from tkinter import ttk,messagebox
-import tkinter as tk
-from tkinter import filedialog
-import platform
-import psutil
-
-import screen_brightness_control as sbc
-
 
 def dependency():
         system("pip install psutil")
@@ -26,6 +15,16 @@ def dependency():
         system("pip install requests")
         print("")
 dependency()
+
+
+from os import system
+from tkinter import *
+from tkinter import ttk
+from tkinter import ttk,messagebox
+import tkinter as tk
+from tkinter import filedialog
+import platform
+import psutil
 
 # Prueba De inicializacion de variables en python
         # Funcion Saludo
