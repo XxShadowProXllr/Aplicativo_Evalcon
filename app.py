@@ -55,8 +55,14 @@ import random
 ################################## WorkSpace ################################
 
 root=Tk()
-root.title()
+root.title('mac-soft Tool')
+root.geometry("850x500+300+170")
+root.resizable(False,False)
+root.configure(bg='#292e2e')
 
+                # Icon configure icon image
+image_icon=PhotoImage(file="Image/icon.png")
+root.iconphoto(False,image_icon)
 
 
 
